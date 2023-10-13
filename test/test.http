@@ -1,0 +1,65 @@
+### get all posts
+GET http://127.0.0.1:5000/posts
+
+### get a single post
+GET http://127.0.0.1:5000/posts/6529099d35be16f162f98806
+
+### create new post
+POST http://127.0.0.1:5000/posts
+Content-Type: application/json
+
+{
+    "username": "new user",
+    "body": "Body of the new user"
+}
+
+### update a post
+PUT  http://127.0.0.1:5000/posts/652907c50a54bc6a4cc6be49
+Content-Type: application/json
+
+{
+    "username": "updated user",
+    "body": "Body of the updated user"
+}
+
+### delete a post
+DELETE  http://127.0.0.1:5000/posts/652907c50a54bc6a4cc6be48
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
